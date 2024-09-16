@@ -1,0 +1,3 @@
+package com.larkes.firebasecryptoportfoliosample.platform
+
+expect class PlatformConfiguration

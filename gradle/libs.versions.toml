@@ -1,0 +1,63 @@
+[versions]
+agp = "8.2.1"
+kotlin = "2.0.0"
+plugin-compose = "1.6.10"
+plugin-compose-compiler = "2.0.0"
+compose = "1.5.4"
+compose-compiler = "1.5.4"
+compose-material3 = "1.3.0"
+androidx-activityCompose = "1.8.0"
+navigation = "2.7.0-alpha07"
+viewmodel = "2.8.0"
+serialization = "1.7.0"
+coil = "2.7.0"
+sqldelight = "2.0.0"
+koin = "3.2.0"
+ktor = "2.3.5"
+
+
+#Firebase
+firebase = "2.0.0"
+google-services = "4.4.2"
+service-auth = "20.4.1"
+
+
+[libraries]
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
+compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
+compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
+compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
+compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "compose" }
+compose-material3 = { module = "androidx.compose.material3:material3", version.ref = "compose-material3" }
+compose-navigation = {module="org.jetbrains.androidx.navigation:navigation-compose", version.ref = "navigation"}
+compose-viewmodel = {module="org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose", version.ref  = "viewmodel"}
+kotlinx-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "serialization" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
+
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+
+
+firebase-auth = {module = "dev.gitlive:firebase-auth", version.ref = "firebase"}
+firebase-database = {module = "dev.gitlive:firebase-database", version.ref = "firebase"}
+firebase-storage = {module = "dev.gitlive:firebase-storage", version.ref = "firebase"}
+google-auth = {module = "com.google.android.gms:play-services-auth", version.ref = "service-auth"}
+
+sqldelight-android-driver = { module = "app.cash.sqldelight:android-driver", version.ref = "sqldelight" }
+sqldelight-native-driver = { module = "app.cash.sqldelight:native-driver", version.ref = "sqldelight" }
+
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
+
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
+
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+sqldelight = { id = "app.cash.sqldelight", version.ref = "sqldelight" }
+serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlinCocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
+googleServices = { id = "com.google.gms.google-services", version.ref = "google-services" }
+composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
