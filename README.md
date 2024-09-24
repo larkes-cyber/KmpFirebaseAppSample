@@ -4,7 +4,7 @@
   <a href="https://android-arsenal.com/api?level=24"><img alt="API" src="https://img.shields.io/badge/API-24%2B-brightgreen.svg?style=flat"/></a>
 </p>
 <p align="center">  
-  This app is a crypto portfolio mobile app that demonstrates modern Kotlin Multiplatform development with Firebase based on MVI architecture. Included features: authentication, realtime database
+  This app is a crypto portfolio mobile app that demonstrates modern Kotlin Multiplatform development with Firebase based on MVI architecture. Included features: authentication, realtime database, crashlytics
 </p>
 
 ## Overview
@@ -21,6 +21,7 @@
 - Put your google-service.json into [androidApp folder](https://github.com/larkes-cyber/KmpFirebaseAppSample/tree/main/androidApp)
 - Put your GoogleService-info.plist into [iosApp folder](https://github.com/larkes-cyber/KmpFirebaseAppSample/tree/main/iosApp/iosApp)
 - Configure firebase params in [Constants](https://github.com/larkes-cyber/KmpFirebaseAppSample/blob/main/shared/src/commonMain/kotlin/com/larkes/firebasecryptoportfoliosample/utils/Constants.kt)
+- Configure GIDClientID and GIDServerClientID in [Info.plist](https://github.com/larkes-cyber/KmpFirebaseAppSample/blob/main/iosApp/iosApp/Info.plist)
 - Add REVERSED_CLIENT_ID into URL_TYPES in [Info.plist](https://github.com/larkes-cyber/KmpFirebaseAppSample/blob/main/iosApp/iosApp/Info.plist)
 - Enjoy the app!
 
