@@ -7,6 +7,10 @@
   This app is a crypto portfolio mobile app that demonstrates modern Kotlin Multiplatform development with Firebase based on MVI architecture. Included features: authentication, realtime database, crashlytics
 </p>
 
+> [!TIP]
+> If you want to see compose multiplatform version, check out the [compose-multiplatform](https://github.com/larkes-cyber/KmpFirebaseAppSample/tree/compose-multiplatform).
+
+
 ## Overview
 ### Portfolio
 <img width="835" alt="Снимок экрана 2024-09-16 в 14 40 31" src="https://github.com/user-attachments/assets/17672d5d-3c42-44f4-9ecf-581873f35cb9">
